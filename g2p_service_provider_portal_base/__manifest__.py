@@ -7,7 +7,7 @@
     "website": "https://openg2p.org",
     "license": "Other OSI approved licence",
     "development_status": "Alpha",
-    "depends": ["account", "website"],
+    "depends": ["account", "website", "g2p_registry_base"],
     "data": [
         "views/about_us.xml",
         "views/base.xml",
