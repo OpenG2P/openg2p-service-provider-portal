@@ -50,28 +50,34 @@
                                     aria-expanded="false"
                                 >
                                     <span>English</span>
+                                    <img
+                                        src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
+                                        class="main-logo ml-5"
+                                        style='width:20px;height:10px;'
+                                    />
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                                     <a
-                                        class="dropdown-item"
+                                        class="dropdown-item d-flex"
                                         href="/website/lang/en?r=/serviceprovider"
                                         data-url_code="en"
                                     >
-                                        <span>English</span>
+                                        <span>English <img
+                                                src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
+                                                class="main-logo ml-2"
+                                                style='width:20px;height:10px;'
+                                            /></span>
                                     </a>
                                     <a
                                         class="dropdown-item"
-                                        href="/website/lang/fr?r=/serviceprovider"
-                                        data-url_code="fr"
+                                        href="/website/lang/am_ET?r=/serviceprovider"
+                                        data-url_code="am_ET"
                                     >
-                                        <span>Français</span>
-                                    </a>
-                                    <a
-                                        class="dropdown-item"
-                                        href="/website/lang/tl?r=/serviceprovider"
-                                        data-url_code="tl"
-                                    >
-                                        <span>Filipino</span>
+                                        <span>Amharic  <img
+                                                src="/g2p_edrmc/static/src/img/flag_et.png"
+                                                class="main-logo ml-2"
+                                                style='width:20px;height:10px;'
+                                            /></span>
                                     </a>
                                 </div>
                             </div>
