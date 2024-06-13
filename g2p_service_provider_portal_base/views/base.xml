@@ -49,12 +49,13 @@
                                     aria-haspopup="true"
                                     aria-expanded="false"
                                 >
+                                <img
+                                    src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
+                                    class="main-logo ml-5"
+                                    style='width:20px;height:10px;'
+                                        />
                                     <span>English</span>
-                                    <img
-                                        src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
-                                        class="main-logo ml-5"
-                                        style='width:20px;height:10px;'
-                                    />
+                                   
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                                     <a
