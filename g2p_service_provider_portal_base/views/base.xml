@@ -49,13 +49,8 @@
                                     aria-haspopup="true"
                                     aria-expanded="false"
                                 >
-                                <img
-                                    src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
-                                    class="main-logo ml-5"
-                                    style='width:20px;height:10px;'
-                                        />
                                     <span>English</span>
-                                   
+                                    
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                                     <a
@@ -63,23 +58,18 @@
                                         href="/website/lang/en?r=/serviceprovider"
                                         data-url_code="en"
                                     >
-                                        <span>English <img
-                                                src="/g2p_service_provider_portal_base/static/src/img/flag_en.png"
-                                                class="main-logo ml-2"
-                                                style='width:20px;height:10px;'
-                                            /></span>
+                
+                                        <span>English </span>
+                                        
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         href="/website/lang/am_ET?r=/serviceprovider"
                                         data-url_code="am_ET"
                                     >
-                                        <span>Amharic  <img
-                                                src="/g2p_service_provider_portal_base/static/src/img/flag_et.png"
-                                                class="main-logo ml-2"
-                                                style='width:20px;height:10px;'
-                                            /></span>
+                                        <span>Amharic </span>
                                     </a>
+                                
                                 </div>
                             </div>
                             <div class="dropdown user">
