@@ -26,8 +26,9 @@ dropdownItems.forEach(function (item) {
         localStorage.setItem("code", code);
         const button = document.querySelector(".language-dropdown button");
         const buttonSpan = button.querySelector("span");
-        const buttonFlag = button.querySelector("img");
+        // const buttonFlag = button.querySelector("img");
         buttonSpan.textContent = languageText;
+    
     });
 });
 
@@ -40,13 +41,13 @@ if (localStorage.getItem("selectedLanguage")) {
         const languageText = item.querySelector("span");
         const code = item.getAttribute("data-url_code");
         if (code && code === selectedLanguageCode) {
-            const languageFlag = item.querySelector("img").src;
+            // const languageFlag = item.querySelector("img").src;
             const button = document.querySelector(".language-dropdown button");
             const buttonSpan = button.querySelector("span");
-            const buttonFlag = button.querySelector("img");
+            // const buttonFlag = button.querySelector("img");
             buttonSpan.textContent = selectedLanguage;
-            buttonFlag.src = languageFlag;
-            buttonFlag.alt = selectedLanguage;
+            // buttonFlag.src = languageFlag;
+            // buttonFlag.alt = selectedLanguage;
         }
     });
 }
