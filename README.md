@@ -1,8 +1,8 @@
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
 
-[![Pre-commit Status](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/pre-commit.yml/badge.svg?branch=17.0-develop)](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/pre-commit.yml?query=branch%3A17.0-develop)
-[![Build Status](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/test.yml/badge.svg?branch=17.0-develop)](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/test.yml?query=branch%3A17.0-develop)
-[![codecov](https://codecov.io/gh/openg2p/openg2p-service-provider-portal/branch/17.0-develop/graph/badge.svg)](https://codecov.io/gh/openg2p/openg2p-service-provider-portal)
+[![Pre-commit Status](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/pre-commit.yml/badge.svg?branch=17.0-1.2)](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/pre-commit.yml?query=branch%3A17.0-1.2)
+[![Build Status](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/test.yml/badge.svg?branch=17.0-1.2)](https://github.com/openg2p/openg2p-service-provider-portal/actions/workflows/test.yml?query=branch%3A17.0-1.2)
+[![codecov](https://codecov.io/gh/openg2p/openg2p-service-provider-portal/branch/17.0-1.2/graph/badge.svg)](https://codecov.io/gh/openg2p/openg2p-service-provider-portal)
 
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
@@ -26,7 +26,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [g2p_service_provider_beneficiary_management](g2p_service_provider_beneficiary_management/) | 17.0.1.2.0 |  | G2P Service Provider Beneficiary Management
-[g2p_service_provider_portal_base](g2p_service_provider_portal_base/) | 17.0.1.0.0 |  | G2P Service Provider Portal: Base
+[g2p_service_provider_portal_base](g2p_service_provider_portal_base/) | 17.0.1.2.0 |  | G2P Service Provider Portal: Base
 
 [//]: # (end addons)
 
