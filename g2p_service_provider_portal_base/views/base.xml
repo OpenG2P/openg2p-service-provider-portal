@@ -50,29 +50,26 @@
                                     aria-expanded="false"
                                 >
                                     <span>English</span>
+                                    
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="language-dropdown-button">
                                     <a
-                                        class="dropdown-item"
+                                        class="dropdown-item d-flex"
                                         href="/website/lang/en?r=/serviceprovider"
                                         data-url_code="en"
                                     >
-                                        <span>English</span>
+                
+                                        <span>English </span>
+                                        
                                     </a>
                                     <a
                                         class="dropdown-item"
-                                        href="/website/lang/fr?r=/serviceprovider"
-                                        data-url_code="fr"
+                                        href="/website/lang/am_ET?r=/serviceprovider"
+                                        data-url_code="am_ET"
                                     >
-                                        <span>Français</span>
+                                        <span>Amharic </span>
                                     </a>
-                                    <a
-                                        class="dropdown-item"
-                                        href="/website/lang/tl?r=/serviceprovider"
-                                        data-url_code="tl"
-                                    >
-                                        <span>Filipino</span>
-                                    </a>
+                                
                                 </div>
                             </div>
                             <div class="dropdown user">

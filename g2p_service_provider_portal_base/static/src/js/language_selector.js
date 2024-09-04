@@ -21,32 +21,33 @@ const dropdownItems = document.querySelectorAll(".dropdown-item");
 dropdownItems.forEach(function (item) {
     item.addEventListener("click", function () {
         const languageText = this.querySelector("span").textContent;
-        console.log(languageText);
-        const languageFlag = this.querySelector("img").src;
+        const code = item.getAttribute("data-url_code");
+        localStorage.setItem("selectedLanguage", languageText);
+        localStorage.setItem("code", code);
         const button = document.querySelector(".language-dropdown button");
         const buttonSpan = button.querySelector("span");
-        const buttonFlag = button.querySelector("img");
+        // const buttonFlag = button.querySelector("img");
         buttonSpan.textContent = languageText;
-        buttonFlag.src = languageFlag;
-        buttonFlag.alt = languageText;
-        localStorage.setItem("selectedLanguage", languageText);
+    
     });
 });
 
 // Check if a language has already been selected and update the button text and image accordingly
 if (localStorage.getItem("selectedLanguage")) {
     const selectedLanguage = localStorage.getItem("selectedLanguage");
+    const selectedLanguageCode = localStorage.getItem("code");
 
     dropdownItems.forEach(function (item) {
         const languageText = item.querySelector("span");
-        if (languageText && languageText.textContent === selectedLanguage) {
-            const languageFlag = item.querySelector("img").src;
+        const code = item.getAttribute("data-url_code");
+        if (code && code === selectedLanguageCode) {
+            // const languageFlag = item.querySelector("img").src;
             const button = document.querySelector(".language-dropdown button");
             const buttonSpan = button.querySelector("span");
-            const buttonFlag = button.querySelector("img");
+            // const buttonFlag = button.querySelector("img");
             buttonSpan.textContent = selectedLanguage;
-            buttonFlag.src = languageFlag;
-            buttonFlag.alt = selectedLanguage;
+            // buttonFlag.src = languageFlag;
+            // buttonFlag.alt = selectedLanguage;
         }
     });
 }
